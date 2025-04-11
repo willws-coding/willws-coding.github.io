@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Chatbot Project</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
+</head>
+<body>
+    <h1>Welcome to My Chatbot Project</h1>
+    <p>This page is hosted on GitHub Pages with a chatbot integrated.</p>
+
+    <script type="module">
+        import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
+
+        createChat({
+            webhookUrl: ‘YOUR LINK‘
+        });
+    </script>
+</body>
+</html>
